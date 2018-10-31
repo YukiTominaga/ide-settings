@@ -1,8 +1,6 @@
 <keymap version="1" name="Default copy" parent="Mac OS X 10.5+">
   <action id="$Copy" />
   <action id="ActivateTerminalToolWindow">
-    <keyboard-shortcut first-keystroke="alt f12" />
-    <keyboard-shortcut first-keystroke="shift ctrl at" />
     <keyboard-shortcut first-keystroke="shift back_quote" />
   </action>
   <action id="Arrangement.Alias.Rule.Match.Condition.Move.Up" />
