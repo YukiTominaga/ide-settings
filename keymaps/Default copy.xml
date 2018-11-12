@@ -4,6 +4,9 @@
     <keyboard-shortcut first-keystroke="delete" />
     <keyboard-shortcut first-keystroke="back_space" />
   </action>
+  <action id="ActivateMavenProjectsToolWindow">
+    <keyboard-shortcut first-keystroke="shift meta m" />
+  </action>
   <action id="ActivateTerminalToolWindow">
     <keyboard-shortcut first-keystroke="shift back_quote" />
   </action>
@@ -24,6 +27,7 @@
   </action>
   <action id="ChangesView.Diff" />
   <action id="ChangesView.GroupBy.Directory" />
+  <action id="ChangesView.Move" />
   <action id="CompareTwoFiles" />
   <action id="Console.TableResult.CloneRow" />
   <action id="CopyAsPlainText">
@@ -119,6 +123,7 @@
   <action id="Vcs.EditSource">
     <keyboard-shortcut first-keystroke="f4" />
   </action>
+  <action id="Vcs.MoveChangedLinesToChangelist" />
   <action id="XDebugger.CopyValue" />
   <action id="XDebugger.CopyWatch" />
   <action id="XDebugger.JumpToSource">
