@@ -28,6 +28,16 @@
   <action id="ChangesView.Diff" />
   <action id="ChangesView.GroupBy.Directory" />
   <action id="ChangesView.Move" />
+  <action id="CollapseAll">
+    <keyboard-shortcut first-keystroke="meta subtract" />
+  </action>
+  <action id="CollapseExpandableComponent">
+    <keyboard-shortcut first-keystroke="shift enter" />
+    <keyboard-shortcut first-keystroke="meta subtract" />
+  </action>
+  <action id="CollapseRegion">
+    <keyboard-shortcut first-keystroke="meta subtract" />
+  </action>
   <action id="CompareTwoFiles" />
   <action id="Console.TableResult.CloneRow" />
   <action id="CopyAsPlainText">
@@ -51,6 +61,9 @@
     <keyboard-shortcut first-keystroke="f4" />
   </action>
   <action id="EditorCopy" />
+  <action id="EditorDecreaseFontSize">
+    <keyboard-shortcut first-keystroke="meta minus" />
+  </action>
   <action id="EditorDeleteLine">
     <keyboard-shortcut first-keystroke="meta d" />
   </action>
@@ -59,6 +72,9 @@
   </action>
   <action id="EditorDuplicate">
     <keyboard-shortcut first-keystroke="shift alt down" />
+  </action>
+  <action id="EditorIncreaseFontSize">
+    <keyboard-shortcut first-keystroke="shift meta semicolon" />
   </action>
   <action id="EditorSelectWord" />
   <action id="EditorTextEnd">
@@ -118,6 +134,7 @@
   <action id="ShowNavBar">
     <keyboard-shortcut first-keystroke="alt home" />
   </action>
+  <action id="ShowRecentTests" />
   <action id="SmartSelect" />
   <action id="TableResult.GrowSelection" />
   <action id="Vcs.EditSource">
