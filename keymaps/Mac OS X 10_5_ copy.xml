@@ -12,6 +12,9 @@
   <action id="Console.Execute.Multiline" />
   <action id="Diff.ShowDiff" />
   <action id="DirDiffMenu.SynchronizeDiff.All" />
+  <action id="EditSource">
+    <keyboard-shortcut first-keystroke="f4" />
+  </action>
   <action id="EditorDeleteLine">
     <keyboard-shortcut first-keystroke="meta back_space" />
     <keyboard-shortcut first-keystroke="meta d" />
@@ -20,10 +23,18 @@
   <action id="EditorDuplicateLines">
     <keyboard-shortcut first-keystroke="shift alt down" />
   </action>
+  <action id="EditorMoveToPageBottom" />
+  <action id="EditorMoveToPageTop" />
   <action id="EditorSelectWord" />
   <action id="EditorSplitLine" />
   <action id="EditorStartNewLine">
     <keyboard-shortcut first-keystroke="meta enter" />
+  </action>
+  <action id="EditorTextEnd">
+    <keyboard-shortcut first-keystroke="meta down" />
+  </action>
+  <action id="EditorTextStart">
+    <keyboard-shortcut first-keystroke="meta up" />
   </action>
   <action id="EditorUnSelectWord" />
   <action id="FileChooser.GotoDesktop" />
@@ -62,10 +73,25 @@
   <action id="SearchEverywhere">
     <keyboard-shortcut first-keystroke="meta p" />
   </action>
+  <action id="SearchEverywhere.NavigateToNextGroup">
+    <keyboard-shortcut first-keystroke="page_down" />
+  </action>
+  <action id="SearchEverywhere.NavigateToPrevGroup">
+    <keyboard-shortcut first-keystroke="page_up" />
+  </action>
   <action id="SendEOF" />
+  <action id="ShowNavBar">
+    <keyboard-shortcut first-keystroke="alt home" />
+  </action>
   <action id="SmartSelect" />
   <action id="TodoViewGroupByShowPackages" />
+  <action id="Vcs.EditSource">
+    <keyboard-shortcut first-keystroke="f4" />
+  </action>
   <action id="ViewSource" />
   <action id="XDebugger.CopyWatch" />
+  <action id="XDebugger.JumpToSource">
+    <keyboard-shortcut first-keystroke="f4" />
+  </action>
   <action id="openAssertEqualsDiff" />
 </keymap>
