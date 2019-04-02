@@ -48,6 +48,7 @@
   <action id="GuiDesigner.Duplicate" />
   <action id="GuiDesigner.ExpandSelection" />
   <action id="Images.ShowThumbnails" />
+  <action id="JumpToLastWindow" />
   <action id="KotlinShellExecute" />
   <action id="MethodOverloadSwitchDown" />
   <action id="MethodOverloadSwitchUp" />
@@ -64,6 +65,11 @@
   <action id="ParameterInfo" />
   <action id="PreviousTab">
     <keyboard-shortcut first-keystroke="meta alt left" />
+  </action>
+  <action id="QuickImplementations">
+    <keyboard-shortcut first-keystroke="alt space" />
+    <keyboard-shortcut first-keystroke="meta y" />
+    <keyboard-shortcut first-keystroke="f12" />
   </action>
   <action id="ReopenClosedTab">
     <keyboard-shortcut first-keystroke="shift meta t" />
