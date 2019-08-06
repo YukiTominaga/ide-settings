@@ -96,6 +96,10 @@
     <keyboard-shortcut first-keystroke="meta y" />
     <keyboard-shortcut first-keystroke="f12" />
   </action>
+  <action id="RenameElement">
+    <keyboard-shortcut first-keystroke="shift f6" />
+    <keyboard-shortcut first-keystroke="shift meta alt r" />
+  </action>
   <action id="ReopenClosedTab">
     <keyboard-shortcut first-keystroke="shift meta t" />
   </action>
