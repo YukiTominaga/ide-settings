@@ -3,6 +3,7 @@
     <extensionMap>
       <mapping pattern="reg" type="PLAIN_TEXT" />
       <mapping pattern=".gitkeep" type="PLAIN_TEXT" />
+      <mapping ext="bin" type="PLAIN_TEXT" />
     </extensionMap>
   </component>
 </application>
