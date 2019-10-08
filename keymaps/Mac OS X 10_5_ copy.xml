@@ -103,6 +103,9 @@
   <action id="ReopenClosedTab">
     <keyboard-shortcut first-keystroke="shift meta t" />
   </action>
+  <action id="RunAnything">
+    <keyboard-shortcut first-keystroke="shift meta p" />
+  </action>
   <action id="RunDashboard.CopyConfiguration" />
   <action id="RunDashboard.ShowConfigurations" />
   <action id="SearchEverywhere">
