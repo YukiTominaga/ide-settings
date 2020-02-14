@@ -1,4 +1,4 @@
-<keymap version="1" name="Mac OS X 10.5+ copy" parent="Mac OS X 10.5+">
+<keymap version="1" name="MacOS" parent="Mac OS X 10.5+">
   <action id="Arrangement.Alias.Rule.Match.Condition.Move.Up" />
   <action id="Arrangement.Rule.Match.Condition.Move.Down" />
   <action id="Arrangement.Rule.Match.Condition.Move.Up" />
@@ -20,7 +20,9 @@
   </action>
   <action id="CompareTwoFiles" />
   <action id="Console.Execute.Multiline" />
+  <action id="Console.TableResult.CompareCells" />
   <action id="Diff.ShowDiff" />
+  <action id="Diff.ShowSettingsPopup" />
   <action id="DirDiffMenu.SynchronizeDiff.All" />
   <action id="EditSource">
     <keyboard-shortcut first-keystroke="f4" />
@@ -75,6 +77,9 @@
     <keyboard-shortcut first-keystroke="shift alt up" />
     <keyboard-shortcut first-keystroke="alt up" />
   </action>
+  <action id="NewDir">
+    <keyboard-shortcut first-keystroke="shift meta d" />
+  </action>
   <action id="NewFile">
     <keyboard-shortcut first-keystroke="shift meta n" />
   </action>
@@ -91,8 +96,15 @@
     <keyboard-shortcut first-keystroke="meta y" />
     <keyboard-shortcut first-keystroke="f12" />
   </action>
+  <action id="RenameElement">
+    <keyboard-shortcut first-keystroke="shift f6" />
+    <keyboard-shortcut first-keystroke="shift meta alt r" />
+  </action>
   <action id="ReopenClosedTab">
     <keyboard-shortcut first-keystroke="shift meta t" />
+  </action>
+  <action id="RunAnything">
+    <keyboard-shortcut first-keystroke="shift meta p" />
   </action>
   <action id="RunDashboard.CopyConfiguration" />
   <action id="RunDashboard.ShowConfigurations" />
@@ -111,7 +123,9 @@
   </action>
   <action id="ShowRecentTests" />
   <action id="SmartSelect" />
+  <action id="TagDocumentationNavigation" />
   <action id="TodoViewGroupByShowPackages" />
+  <action id="Uml.ShowDiff" />
   <action id="Vcs.EditSource">
     <keyboard-shortcut first-keystroke="f4" />
   </action>
@@ -119,6 +133,12 @@
   <action id="XDebugger.CopyWatch" />
   <action id="XDebugger.JumpToSource">
     <keyboard-shortcut first-keystroke="f4" />
+  </action>
+  <action id="android.deploy.ApplyChanges">
+    <keyboard-shortcut first-keystroke="ctrl meta r" />
+  </action>
+  <action id="android.deploy.CodeSwap">
+    <keyboard-shortcut first-keystroke="shift ctrl meta r" />
   </action>
   <action id="openAssertEqualsDiff" />
 </keymap>
